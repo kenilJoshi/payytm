@@ -8,7 +8,7 @@ COPY apps ./apps
 COPY packages ./packages
 
 # Install Dependencies
-RUN npm Install
+RUN npm install
 
 RUN npm run db:generate
 
